@@ -1,0 +1,53 @@
+.details {
+    margin-top: 78px;
+    font-family: 'Roboto';
+    line-height: 22px;
+
+    .details_cover {
+        width: 330px;
+        height: 495px;
+        border-radius: 12px;
+        margin-right: 70px;
+    }
+
+    .details_info {
+        width: 100%;
+        margin-top: 20px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            color: #151515;
+            margin-bottom: 18px;
+
+            :nth-child(1) {
+                font-weight: 700;
+                font-size: 16px;
+            }
+            :nth-child(2) {
+                font-size: 14px;
+            }
+        }
+    }
+    .details_desc {
+        font-size: 16px;
+        color: #1E1E1E;
+        margin-top: 53px;
+    }
+
+    .details_credit {
+        margin: 80px 0 20px;
+
+        &.credit {
+            .credit_title {
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .credit_info {
+                font-size: 14px;
+                margin-top: 12px;
+                color: #1E1E1E;
+            }
+        }
+    }
+}
