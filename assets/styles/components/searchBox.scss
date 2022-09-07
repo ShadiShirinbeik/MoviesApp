@@ -1,0 +1,33 @@
+.search-box {
+    margin-top: 69px;
+    height: 85px;
+    width: inherit;
+    
+    .search-box_title {
+        left: 81px;
+        top: 33px;
+        font-family: 'Roboto';
+        line-height: 19px;
+    }
+
+    .search-box_input {
+        left: 275px;
+        top: 27px;
+        height: 33px;
+        width: 221px;
+    }
+
+    .search-box_button {
+        right: 62px;
+        top: 27px;
+        color: #fff;
+        height: 33px;
+        width: 74px;
+        background: #549DF2;
+        border-radius: 100px;
+    }
+
+    .search-box_title, .search-box_input, .search-box_button {
+        position: absolute;
+    }
+}

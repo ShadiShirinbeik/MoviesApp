@@ -1,0 +1,30 @@
+.title-box {
+    margin-top: 69px;
+    height: 85px;
+    width: inherit;
+
+    .title-box_title {
+        left: 191px;
+        top: 18px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        line-height: 21px;
+        :nth-child(1) {
+            font-weight: 700;
+        }
+    }
+
+    .title-box_button {
+        left: 33px;
+        top: 26px;
+        color: #fff;
+        height: 33px;
+        width: 92px;
+        background: #549DF2;
+        border-radius: 100px;
+    }
+
+    .title-box_title, .title-box_button {
+        position: absolute;
+    }
+}

@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 123px;
+    height: 85px;
+    width: inherit;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    .footer_prev {
+        text-align: right;
+        color: rgba(0, 0, 0, 0.48);
+    }
+    
+    .footer_divider {
+        margin: 0 30px;
+        color: #6A6A6A;
+    }
+
+    .footer_next {
+        color: #318FE7;
+    }
+
+    .footer_result {
+        color: #989898;
+        font-weight: 400 !important;
+        margin-top: 25px;
+    }
+}

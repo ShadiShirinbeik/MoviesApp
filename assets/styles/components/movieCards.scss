@@ -1,0 +1,54 @@
+.movie-cards {
+    width: 295px;
+    height: 195px;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 38px;
+
+    .movie-cards_img {
+        margin:3px 14px 4px 4px;
+
+        img {
+            width: 125px;
+            height: 188px;
+            border-radius: 6px 0px 0px 6px;
+        }
+    }
+
+    .movie-cards_content {
+        margin: 16px 0 13px 0;
+        font-family: 'Roboto';
+
+        &.cards-content {
+            .cards-content_title{
+                font-weight: 700;
+                line-height: 22px;
+            }
+            .cards-content_footer {
+                font-size: 12px;
+                line-height: 14px;
+                span {
+                    color: #4E4E4E;
+                }
+                ul {
+                    color: #505050;
+                    margin-top: 17px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+
+                        &::before {
+                            content: "•";
+                            font-size: 15px;
+                            margin: 0 5px;
+                        }
+                    }
+                    li:first-child::before {
+                        content: "" !important;
+                        margin: 0
+                    }
+                }
+            }
+        }
+    }
+}
